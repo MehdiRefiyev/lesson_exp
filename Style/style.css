@@ -1,0 +1,230 @@
+header{
+    width:100%;
+    position: relative;
+    height:90vh;
+}
+footer{
+    border-top: 1px solid silver;
+    text-align: center;
+}
+#backstyle_menyu{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url('https://wallpapercave.com/wp/wp8050750.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.menyu_info{
+    width: 100%;
+    height:7vh;
+    position: relative;
+    color: white;
+    border-bottom: 1px solid black;
+    float: left;
+}
+.info_p{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 1em;
+}
+.phone{
+    display: inline-block;
+    margin-left:0.5%;
+}
+.header_search{display: inline-block;}
+.fa-phone{margin-left:30%;
+          margin-top: 1%;
+        color:lawngreen;
+}
+.fa-envelope{ margin-left:3%;
+              color: lawngreen;
+}
+.fa-search{margin-left:3%;
+           color: lawngreen;
+}
+.site_loqo{
+    color: white;
+    width: 50%;
+    height: 17%;
+    float: left;
+    position: relative;
+}
+.loqo_place{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 30%;
+    position: relative;
+}
+.nav_a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav_name{
+    width:50%;
+    height: 17%;
+    float: left;
+    position: relative;
+}
+.nav_name ul {
+    height: 100%;
+    width: 91%;
+    list-style: none;
+    margin: 0%;
+    margin-left:9%;
+    display: inline-block;
+}
+.nav_name ul li{
+    width: 14.5%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 97px;
+}
+
+.nav_name ul li:hover{
+    transition: 1s;
+    background-color:skyblue;
+}
+.header_textarea{
+    height:calc(90vh - 7vh - 17%);
+    width:80%;
+    float: left;
+    position: relative;
+}
+.header_hugetext{
+    width: 55%;
+    height: 35%;
+    margin-top:9%;
+    position: relative;
+    float: left;
+}
+.textarea_h{
+    font-size: 2.5em;
+    float: left;
+    font-family:'Lucida Sans',sans-serif;
+    margin: 0%;
+    color: whitesmoke;
+}
+.info_text_in_header_p{
+    list-style: none;
+    float: left;
+    color: whitesmoke;
+    margin: 0%;
+    margin-top: 3%;
+}
+.input_area{
+    width: 55%;
+    height: 20%;
+    float: left;
+}
+.form_header{
+    width: 100%;
+    float:left;
+}
+.green_input, .opticy_input{
+    margin-top: 5%;
+    padding: 2% 7%;
+    border-radius:25px;
+    border:2px solid rgb(37, 211, 37);
+    color: whitesmoke;
+    background-color: rgb(37, 211, 37);
+}
+.opticy_input{
+    border-color: whitesmoke;
+    background: none;
+    margin-left:5px;
+}
+.green_input:hover{
+    background-image: linear-gradient(to right, rgb(37, 211, 37), lightgreen);
+    transition: 3s;
+}
+.opticy_input:hover{
+    background-color: whitesmoke;
+    color: silver;
+    transition: 1s;
+}
+.dots_area{
+    width: 50%;
+    height:7%;
+    margin-top:6%;
+    float: left;
+    margin-left: 1%;
+    position: relative;
+}
+.dot{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: whitesmoke;
+    cursor: pointer;
+    position: relative;
+}
+#dot1{
+    background-color: lawngreen;
+}
+.dot:hover{
+    transition: 0.5s;
+    background-color: lawngreen;
+}
+.next_left, .next_right{
+    width:10%;
+    height: 10%;
+    margin-top:13%;
+    float: left;
+    position: relative;
+    opacity:0.4;
+}
+.next_left:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.next_right:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.next_right{display: inline-block;}
+.style_next_left, .style_next_right{
+    width: 70%;
+    height: 100%;
+    margin-right:30%;
+}
+.style_next_right{margin-left: 30%;}
+.forleft{ float: right;}
+.forright{ float: left;}
+.main_textarea{
+    height:30vh;
+    width: 100%;
+    text-align: center;
+}
+.main_textarea h2{
+    display: inline-block;
+    margin-top: 10vh;
+}
+.main_text_p{
+    display: inline-block;
+    margin-bottom: 0%;
+}
+.main_card{
+    width: 80%;
+    display: inline-block;
+    margin-left:10%;
+}
+.card{
+    width:22%;
+    margin-bottom:3%;
+    margin-left:3%;
+    float: left;
+    border: 1px solid silver;
+}
+.foot_p{
+    display: inline-block;
+    margin: 0%;
+    margin-top: 5vh;
+    margin-bottom:5vh;
+    font-size: 1.3em;
+    font-style: italic;
+}
